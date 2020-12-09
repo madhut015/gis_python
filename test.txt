@@ -1,1 +1,2 @@
 Now it has something
+And now another line
