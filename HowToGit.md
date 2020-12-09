@@ -1,5 +1,13 @@
 # How to GIT
-First create a repository in Github
+First, set up an account in Github (https://github.com). 
+
+Second, create a repository in Github. You can create at the same time basic versions of a README.md (Initial documentation) and .gitignore (List of files to NOT back-up in github).
+
+Lastly, follow the instructions on how to create a public key and upload it to Github (https://github.com/settings/keys)
+
+In HPC, a public key is created the first time you log in, and is in the file ~/.ssh/rsa_id.pub (you can copy and paste the contents of that faile into github as a SSH key to use). By using this option, you will not need to type your username and password every time you synchronize your files with Github.
+
+
 ## Cloning
 In the repository, copy the SSH Code (ex. git@github.com:madhut015/gis_python.git)
 
